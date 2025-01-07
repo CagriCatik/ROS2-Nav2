@@ -15,18 +15,20 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cagricatik.github.io', // Correct: Root domain without sub-path
+
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ROS2-Nav2/', // Correct: Sub-path with trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cagricatik', // Usually your GitHub org/user name.
+  projectName: 'ROS2-Nav2', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // Enable GitHub Pages deployment
+  deploymentBranch: 'gh-pages', // Default is 'gh-pages'
+  trailingSlash: false, // Optional: depends on your preference
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
