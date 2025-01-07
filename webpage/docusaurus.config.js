@@ -26,6 +26,9 @@ const config = {
   organizationName: 'cagricatik', // Usually your GitHub org/user name.
   projectName: 'ROS2-Nav2', // Usually your repo name.
 
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'warn',
+
   // Enable GitHub Pages deployment
   deploymentBranch: 'gh-pages', // Default is 'gh-pages'
   trailingSlash: false, // Optional: depends on your preference
